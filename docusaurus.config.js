@@ -26,9 +26,9 @@ module.exports = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/coffmanjrp/react-docusaurus-playground',
           label: 'GitHub',
           position: 'right',
         },
@@ -72,7 +72,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/coffmanjrp/react-docusaurus-playground',
             },
           ],
         },
@@ -97,7 +97,7 @@ module.exports = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+            'https://github.com/coffmanjrp/react-docusaurus-playground/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
